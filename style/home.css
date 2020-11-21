@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+  list-style: none;
+}
+
+/* new
+body{
+  background:url("Black-Gradient-Background.jpg");
+  background-color: rgba(15, 15, 15, 0.753);
+}
+#container{
+  background-color: rgb(34, 29, 29);
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+
+#content{
+  padding: 10px;
+
+}
+
+#nav{
+width:200px;
+float: left;
+}
+
+#main{
+width:auto;
+}
+
+#footer{
+  clear: both;
+  bottom: 0;
+  background-color: rgb(34, 29, 29);
+  width: 100%;
+  color: white;
+  padding: 20px 0;
+  text-align: right;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2{
+  margin: 0;
+}
+
+nav ul{
+  padding:0;
+}
+
+.selected{
+  background-color: indigo;
+
+}
+*/
+
+/*___________________________________________________________________________________________________________________*/
+
+
+
+/*Old
+.wrapper {
+  display: flex;
+  position: relative;
+  height: 150vh;
+}
+
+.wrapper .sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  transition: all 200ms linear;
+  padding: 30px 0;
+}
+.wrapper .sidebar h2 {
+  color: #fdfdfd;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li {
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(250, 250, 250, 0);
+}
+
+.wrapper .sidebar ul li a {
+  color: bisque;
+  display: block;
+}
+
+
+
+.wrapper .sidebar ul li :hover {
+  background: blueviolet;
+}
+
+.header {
+  background: #da0e0e;
+  color: white;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0px;
+  top: 0;
+  position: absolute;
+}
+
+.header h1 {
+  font: white;
+  text-align: center;
+}
+
+.main {
+  font: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  float: center;
+  height: 300px;
+  width: 100%;
+}
+
+.footer-copyright {
+  background: #303036;
+  color: white;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0px;
+  bottom: 0;
+  position: absolute;
+}
+
+body {
+ 
+  height: 100%;
+}
+
+.box1 {
+  background: #645757;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 500px;
+  border-style: solid;
+  border-color: black;
+  float: center;
+  text-align: center;
+}
+
+.box1 input[type="text"],
+.box1 input[type="password"],
+.box1 input[type="email"],
+.box1 input[type="number"],
+.box1 input[type="age"].box1 input[type="gender"] {
+  border: 0;
+  background: none;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 14px 10px;
+  width: 200px;
+  border: 2px solid #e6e4e4;
+}
+
+.location{
+  color: #e6e4e4;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+nav {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  min-height: 8vh;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width:30%;
+}
+*/

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="javascript.js">
+  <link rel="stylesheet" href="darkMode.css">
+  <link rel="shortcut icon" href="img\favicon.ico" type="img\x-icon">
+  <title>Gallery</title>
+
+  <style>
+
+.gallery-container{
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.gallery{
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  height: auto;
+  width:98%;
+  margin: 10px;
+  
+}
+
+
+
+.boxa{
+    background: url(img/android-chrome-512x512.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+
+.box2{
+    background-image: url(img/smartphone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 8/9;
+    grid-row: 6/7;
+}
+
+.box3{
+  background-image: url(img/Black-Gradient-Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: 3/8;
+    grid-row: 1/3;
+}
+
+.box4{
+  background-image: url(img/CEO.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.box5{
+  background-image: url(img/chargerCover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: 1/6;
+    grid-row: 17/18;
+}
+
+
+
+.box6{
+  background-image: url(img/COO.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: 12/14;
+    grid-row: 9/11;
+}
+
+
+.box7{
+  background-image: url(img/dreams.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: 1/6;
+    grid-row: 3/5;
+}
+
+.box8{
+  background-image: url(img/foldable.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 6/14;
+    grid-row: 13/17;
+}
+
+.box9{
+  background-image: url(img/foldableee.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 10/14;
+    grid-row: 1/3;
+}
+
+.box10{
+  background-image: url(img/iphone\ 12.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 6/8;
+grid-row: 3/5;
+}
+
+.box11{
+  background-image: url(img/kewlphone.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 1/4;
+grid-row: 5/7;
+}
+
+.box12{
+  background-image: url(img/laptopCover.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 9/14;
+    grid-row: 6/8;
+}
+
+.box13{
+  background-image: url(img/Marketer.png);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 5/5;
+    grid-row: 12/14
+}
+
+.box14{
+  background-image:url(img/phoneCover.jpg) ;
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 9/12;
+    grid-row: 9/11;
+}
+
+.box15{
+  background-image: url(img/Services-banner.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 1/6;
+    grid-row: 11/14;
+  
+}
+
+.box16{
+  background-image: url(img/tabletCover.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 4/8;
+    grid-row: 5/7;
+}
+
+.box17{
+  background-image: url(img/virtuosoBuilding.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 8/14;
+    grid-row: 3/6;
+}
+
+.box18{
+  background-image: url(img/VRheadset.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 1/9;
+    grid-row: 7/11;
+}
+
+.box19{
+  background-image:url(img/watchCover.jpg) ;
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 8/14;
+    grid-row: 11/13;
+}
+
+.box20{
+  background-image: url(img/tablet3.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 1/5;
+    grid-row: 14/16;
+}
+
+.box21{
+  background-image: url(img/WEBDEV.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 6/8;
+    grid-row: 11/13;
+}
+
+
+.box22{
+  background: url(img/smartphone7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: 8/10;
+    grid-row: 1/3;
+}
+
+.box23{
+  background-image: url(img/laptop.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 6/10;
+    grid-row: 17/19;
+}
+
+.box24{
+  background-image: url(img/sky.jpeg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 1/6;
+    grid-row: 16/19;
+}
+.box25{
+  background-image: url(img/virtuosoDark.png);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+grid-column: 10/14;
+    grid-row: 18/19;
+}
+
+  </style>
+
+</head>
+<body style="background-image: url(img/Black-Gradient-Background.jpg);">
+
+<div class="gallery-container">
+  
+  <header>
+
+    <div class="logo">
+      <a href=""> 
+        <img src="img/virtuosologo.png" alt="Logo" title="Virtuoso Electronics">
+      </a>
+   </div>
+
+   <div class="cart-div1">
+      <a href=""><i class="fa fa-cart-plus"></i></a>
+   </div>
+
+<input type="checkbox" name="nav-toggle" id="nav-toggle" class="nav-toggle">
+
+    <nav class="navbar">
+
+      <ul class="nav-list">
+        <div class="nav-section1">
+        <li class="nav-items"> <a class= "nav-links" href="index.html"> Home </a> </li>
+        <li class="dropdown-item"><a href="#" class="dropdown">Store<i class="fa fa-angle-down"></i></a>
+        
+          <ul class= "dropdown-content">
+
+            <li class= "dropdown-items"> 
+              <a class= "dropdown-links" href="smartphones.html"> 
+                <img class="dropdown-img" src="img/nav-phone.jpg" alt="Fone:(">
+                <p>Smartphones</p>
+              </a> 
+            </li>
+
+            <li class= "dropdown-items"> 
+              <a class= "dropdown-links" href="Laptops.html"> 
+                <img class="dropdown-img" src="img/nav-laptop.jpg" alt="Laptop :(">
+                <p>Laptops</p>
+              </a> 
+            </li>
+
+            <li class= "dropdown-items"> 
+              <a class= "dropdown-links" href="TV's.html">  
+                <img class="dropdown-img" src="img/nav-TV.jpg" alt="TV :(">
+                <p>TV's</p>
+              </a> 
+            </li>
+
+            <li class= "dropdown-items"> 
+              <a class= "dropdown-links" href="Tablets.html">   
+                <img class="dropdown-img" src="img/nav-tablet.jpg" alt="img/nav-tablet.jpg">
+                <p>Tablet</p> 
+              </a>
+            </li>
+
+            <li class= "dropdown-items"> 
+              <a class= "dropdown-links" href="Wearables.html">  
+                <img class="dropdown-img" src="img/nav-wearable.jpg" alt="Wearables:(">
+                <p>Wearables</p> 
+              </a> 
+            </li>
+          </ul>
+
+        </li>
+
+        <li class="nav-items"> <a class= "nav-links" href="Services.html"> Services </a> </li>
+        <li class="nav-items"> <a class= "nav-links" href="aboutUs.html"> About Us </a> </li>
+        
+       </div>
+
+        <div class="nav-section2">
+
+        <li >
+          <a href="FTP.html" target="_blank" class="account-link">
+           <i class="fa fa-user-o" title="My Account"></i>
+          </a>
+          
+          <li class="nav-items"> <a class= "nav-links" href="FTP.html"> Accounts </a> </li>
+
+        </li>
+
+        <li>
+          <li class="support" title="Support Us">Support Us</li>
+        </li>
+        </div>
+
+      </ul>
+
+     
+
+    </nav>
+
+
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span class="span-1"> </span>
+      <span class="span-2"> </span>
+      <span class="span-3"> </span>
+  </label>
+  </header>
+
+            <div style="width: 230px; margin: 100px auto 0 auto; height: 60px; color: white;">
+              <h1 style="font-size: 35px; border-bottom: white solid 9px;">Image Gallery</h1>
+            </div>
+    
+
+      <div style="border: black solid 2px; margin: 50px auto; width: 90%; background-color: white;">
+            <div class="gallery">
+              
+
+              <div class="box boxa"></div>
+              <div class="box box2"></div>
+              <div class="box box3"></div>
+              <div class="box box4"></div>
+              <div class="box box5"></div>
+              <div class="box box6"></div>
+              <div class="box box7"></div>
+              <div class="box box8"></div>
+              <div class="box box9"></div>
+              <div class="box box10"></div>
+              <div class="box box11"></div>
+              <div class="box box12"></div>
+              <div class="box box13"></div>
+              <div class="box box14"></div>
+              <div class="box box15"></div>
+              <div class="box box16"></div>
+              <div class="box box17"></div>
+              <div class="box box18"></div>
+              <div class="box box19"></div>
+              <div class="box box20"></div>
+              <div class="box box21"></div>
+              <div class="box box22"></div>
+              <div class="box box23"></div>
+              <div class="box box24"></div>
+              <div class="box box25"></div>
+</div>
+
+            </div>
+</div>
+
+<footer class="contact-footer">
+  <div class="table">
+
+    <div class="tr">
+
+      <div class="td" id="td1">
+        <p style="overflow: hidden; height: 94px;"><img src="img/virtuosologo.png" class="footer-logo"
+            alt="Virtuoso"></p>
+
+
+        <h1 id="follow-us-h1">Follow Us&colon;</h1>
+
+        <ul class="social-media">
+
+          <div> <li><a href="https://www.facebook.com/curtney.james.1" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/facebook-circled.png"/>
+          </a>
+          </li>
+          <li><a href="https://www.youtube.com/channel/UCg6P11al_qISq2EjbgdelCQ/about?view_as=subscriber"
+              target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a></li>
+          <li><a href="#"><img src="https://img.icons8.com/color/48/000000/twitter-circled.png"/></a></li></div>
+         
+          <div> <li><a href="https://www.instagram.com/jaames_006/?r=nametag" target="_blank">
+            <img src="https://img.icons8.com/cute-clipart/48/000000/instagram-new.png"/></a></li>
+          <li><a href="https://www.reddit.com/user/Wednesday2069" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/reddit.png"/></a>
+          </li>
+          <li><a href="https://www.pinterest.com/cjae4133/boards/" target="_blank">
+            <img src="https://img.icons8.com/color/48/000000/pinterest.png"/></a></li></div>
+         
+        </ul>
+      </div>
+
+      <div class="td" id="td2">
+
+
+        <h2 class="contact-head-h2">Quick Links&colon;</h2>
+
+        <ul class="links">
+          
+          <li class="quick-links"><span><a href="https://myblogiguess.netlify.app/virtusoso-blog"
+            target="blank">Blog</a></span></li>
+          <li class="quick-links"><span><a href="#">Help*</a></span></li>
+          <li class="quick-links"><span><a href="gallery.html">Gallery</a></span></li>
+          <li class="quick-links"><span><a href="https://www.bbc.com/news/world-51235105?"
+                target="blank">Coronavirus News</a></span></li>
+          <li class="quick-links"><span><a href="PrivacyPolicy.html" target="blank">Privacy Policy</a></span></li>
+          <li class="quick-links"><span><a href="TermsAndConditions.html" target="blank">Terms and
+                Conditions</a></span></li>
+
+        </ul>
+      </div>
+
+      <div class="td" id="td3" style="width: 100%; color: #000000;" >
+        <h2 class="contact-head-h2">Contact Us&colon; </h2>
+            <p><i class="fa fa-phone"></i> 1(420)783-0069</p>
+            <p style="padding: 30px, 10px 30px 10px;"><i class="fa fa-envelope-o"></i> virtuosoelectronics@gmail.com</p>
+            <p><i class="fa fa-map-marker"></i> Griffin Oak Avenue, Diamond Estate</p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer style=" position: relative; " class="footer-copyright">
+    <p>&copy; 2020 Curtney K. James. All Rights Reserved</p>
+  </footer>
+
+</footer>
+
+
+    
+</body>
+</html>
